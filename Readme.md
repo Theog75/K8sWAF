@@ -23,7 +23,7 @@ Pull this repository to your home directory (or anywhere else).
 To deploy this configuration just run:
 
 ```
-docker run -it -p 80:8080 -v ~/apache-gateway/auth:/etc/httpd/conf.d theog75/k8swaf
+docker run -it -p 80:8080 -v ~/K8sWAF/auth:/etc/httpd/conf.d theog75/k8swaf
 ```
 
 on your local machine and point your browser to [http://localhost/v2](http://localhost)
